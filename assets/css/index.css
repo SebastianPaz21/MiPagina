@@ -1,0 +1,134 @@
+* {
+    font-family: 'Texturina', serif;
+}
+body{
+    top: 0;
+    left: 0;
+}
+/*==================================================
+                    Banner
+====================================================*/
+.banner h1, p {
+    text-align: center;
+}
+.banner {
+    padding: 27vh 0 20vh 0;
+    background: -webkit-linear-gradient(to right, hsla(0, 0%, 100%, 0.568), hsla(219, 11%, 24%, 0.603)), url(./../img/fondo.jpg);
+    background: linear-gradient(to right, hsla(0, 0%, 100%, 0.568), hsla(219, 11%, 24%, 0.603)), url(./../img/fondo.jpg);
+    background-size: cover;
+    margin-left: -0.6%;
+    margin-right: -0.6%;
+    /*ajusta la imagen de fondo*/
+}
+.contenido-banner{
+    border: white 6px solid;
+    padding:4%;
+    width: 40%;
+    margin:0vh auto;
+    color: white;
+}
+/*==================================================
+                    Secciones
+====================================================*/
+
+/*General*/
+.seccion-dos, .seccion-cuatro {
+    max-width: 100%;
+    height: 70vh;
+    padding: 3%;
+    background-color: rgb(241, 239, 239);
+}
+.seccion-uno, .seccion-tres, .seccion-cinco {
+    max-width: 100%;
+    height: 100%;
+    padding: 3%;
+}
+.seccion h2 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+}
+.seccion p {
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*---------------------Primera sección--------------------*/
+
+.seccion-uno {
+    margin:auto;
+    text-align: center;
+    margin-bottom: 20vh;
+    width: 70%;
+}
+.boton {
+    padding: 1.5%;
+    border: solid 2px rgb(123, 187, 247);
+    font-size: 25px;
+    color: rgb(123, 187, 247);
+    background-color: #fff;
+    width: 20vh;
+    border-radius: 22px;
+    font-weight: 1000;
+    cursor: pointer;
+}
+.boton:hover {
+    background-color: rgb(123, 187, 247);
+    color: white;
+}
+/*-------------------Segunda Sección---------------------*/
+.seccion-dos div{
+    width: 27vh;
+    height: 27vh;
+    float: left;
+    margin-left: 15vh;
+    border-radius: 100%;
+    border: solid 5px rgb(241, 239, 239);
+    background-image: radial-gradient(circle at 50% -20.71%, #ade5ff 0, #7dcefb 25%, #3cb5f2 50%, #009ce9 75%, #0085e0 100%);;
+}
+.seccion-dos img{
+    width: 27vh;
+    margin-top: 4.5vh;
+}
+.seccion-dos div:hover{
+    border: solid 5px rgb(47, 147, 247);
+}
+.seccion-dos h2{
+    text-align: center;
+}
+.seccion-dos h3{
+    text-align: center;
+    margin-top: 6vh;
+}
+.seccion-dos h3:hover{
+    border-bottom: 2px solid rgb(47, 147, 247);
+}
+/*----------------Tercera Sección-------------------------*/
+.seccion-tres{
+    padding-bottom: 65vh;
+    padding-top: 20vh;
+}
+.content-tres{
+    width: 100%;
+}
+.content-tres img{
+    float: left;
+    width: 40vh;
+    margin-left:35vh;
+    border: 5px solid white;
+    padding: 1.5%;   
+}
+.content-tres p{
+    float: left;
+    margin-top: 13vh;
+    width: 30%;
+    margin-left: 10vh;
+    padding: 1.5%;
+}
+.content-tres img:hover ,.content-tres p:hover{
+    border-bottom: 2px solid rgb(47, 147, 247);
+    padding: 1.5%;
+}
