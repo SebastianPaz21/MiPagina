@@ -1,0 +1,40 @@
+.menu img{
+    width: 30px;
+}
+.menu{
+    background-color: rgb(211, 210, 210);
+    padding: 1%;
+    width: 25%;
+    margin-left: 36%;
+    border-radius: 5px;
+}
+.menu a p {
+    font-size: 25px;
+    float: right;
+    margin-top: -9%;
+    color: black;
+}
+.menu a{
+   text-decoration: none;
+}
+.contenedor{
+    width: 70%;
+    margin-left: 15%;
+}
+.contenedor h3{
+    margin-left: 60%;
+}
+.contenedor img{
+    margin-left: 85%;
+    border-radius: 50%;
+}
+.contenedor #parrafo{
+    /* background-color: yellow; */
+    width: 24%;
+    margin-left: 35%;
+    color: black;
+}
+.contenedor #parrafo2{
+    width: 85%;
+    margin-top: -8%;
+}

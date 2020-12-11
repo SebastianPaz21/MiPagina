@@ -1,0 +1,44 @@
+.cabecera{
+    height: 100vh;
+}
+.nav{
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    border: rgb(228, 226, 224);
+    padding: .3%;
+    position: fixed;
+    width: 100%;
+    box-shadow: rgb(141, 141, 141) 3px 3px 3px 3px;
+    z-index: 100;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    display: inline;
+    margin-left: 2%;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(95, 94, 94);
+    float: right;
+    font-weight: 1000;
+    margin-right: 2%;
+
+}
+ul li a:hover,.logo img:hover{
+    border-bottom: 2px rgb(95, 94, 94) solid;
+    cursor: pointer;
+}
+.logo{
+    position: absolute;
+    margin-left: 10%;
+}
+.logo img{
+    width: 7vh;
+    margin: 2px auto;
+}
+.active{
+    border-bottom: 2px rgb(95, 94, 94) solid;
+}

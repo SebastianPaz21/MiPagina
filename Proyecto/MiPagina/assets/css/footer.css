@@ -1,0 +1,20 @@
+footer{
+    background-color: rgb(43, 42, 42);
+    text-align: center;
+    padding: 1.5% 0px 2% 0px;
+    color: white;
+}
+footer hr{
+    color: white;
+    width: 80vw;
+}
+.icons box-icon{
+    width: 6vw;
+}
+.icons box-icon:hover{
+    cursor: pointer;
+}
+footer img{
+    width: 5%;
+
+}

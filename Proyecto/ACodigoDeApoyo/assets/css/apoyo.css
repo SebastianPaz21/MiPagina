@@ -1,0 +1,30 @@
+/*h1{
+    font-weight: bold;
+    background-color: red;
+}
+.hola:active{
+border: 1px dashed red;
+}
+/* Agregar atributos */
+/*img[alt=dog]{
+
+}
+/* Debe ser parrafo Y clase .error */
+/*p.error{
+
+}
+
+/* posicionamineto */
+/*position:static;/**/
+
+/*position:relative;/**/
+/*top:15px;
+left:15px;
+
+position:absolute;/*posicionar repecto al ancestro mas cercano*/
+/*top
+left*/
+
+tr:nth-child(even){
+    background-color: #fff;
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./../assets/img/miPerfil.png" type="image/x-icon">
+    <link rel="stylesheet" href="./../assets/css/header.css">
+    <link rel="stylesheet" href="./../assets/css/footer.css">
+    <link rel="stylesheet" href="./../assets/css/foro.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@100&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+    <title>Foro</title>
+</head>
+
+<body>
+    
+    <div class="cabecera">
+        <div class="nav">
+            <div class="logo">
+                <a href="./../index.html"><img src="./../assets/img/miPerfil.png" alt=""></a>
+            </div>
+            <ul>
+                <li><a class="active" href="#">Foro de mensajes</a></li>
+                <li><a href="./materialDeInteres.html">Material de interés</a></li>
+                <li><a href="./lineaDelTiempo.html">Línea del Tiempo</a></li>
+                <li><a href="./experiencia.html">Experiencia</a></li>
+                <li><a href="./datosBibliograficos.html">Datos Bibliográficos</a></li>
+                <li><a href="./../index.html">Inicio</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="contenido">
+        <h1>Foro de mensajes</h1>
+        <br>
+        <form>
+            <script src="./../assets/js/index.js"></script>
+            Escribe tu mensaje
+            <br>
+            <br>
+            <input type="text" id="mensaje" placeholder="Escribe tu mensaje aquí"  required>
+            <br>
+            <button onclick="ejecutar()" id="action-button" type="reset" >Enviar</button>
+            <textarea style="display: none;" id="texto" name=""  cols="30" rows="10"></textarea>
+            <div class="tot">
+
+                <h2>Mi contenido</h2>
+                <hr>
+                <div id="cont" >
+                </div>
+            </div>
+
+        </form>
+    </div>
+    
+    <footer>
+        <div class="informacion">
+            <h2>Juan Sebastian Paz Gantiva| Copyright</h2>
+            <!-- <img src="./assets/img/miPerfil.png" alt=""> -->
+        </div>
+        <hr>
+        <div class="icons">
+            <a href="https://www.facebook.com/">
+                <box-icon width='100px' name='facebook-square' type='logo' color='#ffffff'></box-icon>
+            </a>
+            <a href="https://www.instagram.com/">
+                <box-icon name='instagram' type='logo' color='#ffffff'></box-icon>
+            </a>
+            <a href="https://twitter.com/?lang=es">
+                <box-icon name='twitter' type='logo' color='#ffffff'></box-icon>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>
